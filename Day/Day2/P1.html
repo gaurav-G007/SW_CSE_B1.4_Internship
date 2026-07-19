@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Tags</title>
+    <style>
+        .responsive-image { 
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <!-- src: source of the image alternative text|self closing tag -->
@@ -21,7 +28,10 @@
          style="width: 400px; height: 300px; border-radius:35%; border:5px solid #22418aea">
 
     <!-- Image formats -->
-     <!-- 1. JPEG 2. PNG 3. GIF 4. SVG 5. WebP -->
+    <!-- 1. JPEG 2. PNG 3. GIF 4. SVG 5. WebP -->
 
+        <!-- Responsive images via CSS -->
+        <img src="Batman.jpg" alt="Could not find image" class="responsive-image">
+        
 </body>
 </html>
